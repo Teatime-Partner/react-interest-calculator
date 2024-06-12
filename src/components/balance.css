@@ -1,0 +1,61 @@
+/* style container */
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 5% auto;
+  border: 1px rgb(72, 119, 155) solid;
+  background-color: #95c2bd;
+}
+
+/* style input field to not be bootstrap default */
+input {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #9fbfbb;
+}
+
+/* style buttons */
+.btn {
+  max-height: 40px;
+  margin-top: -5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #559a9a;
+  color: white;
+  cursor: pointer;
+}
+.btn-success {
+  background-color: #199058;
+  margin-bottom: 5px;
+}
+
+.btn-danger {
+  background-color: #a0273d;
+}
+
+.btn:hover {
+  background-color: #47bbc1;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+/* style transactionhistory list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: rgb(233, 233, 233);
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #92a2b4;
+  border-radius: 5px;
+  background-color: #588d88;
+}
